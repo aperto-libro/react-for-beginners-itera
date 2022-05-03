@@ -1,0 +1,46 @@
+.header {
+  color: rgb(245, 241, 2);
+  margin-bottom: 50px;
+}
+
+.logo {
+  width: 300px;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 50px;
+  color: rgb(245, 241, 2);
+}
+
+.list {
+  padding-left: 0;
+  margin: 0 auto;
+  list-style: none;
+  width: 30%;
+  color: blue;
+}
+
+.list-item {
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 18px;
+}
+
+.list-item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+span {
+  width: 150px;
+  text-align: left;
+  font-style: italic;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+footer {
+  margin-top: 40px;
+}
